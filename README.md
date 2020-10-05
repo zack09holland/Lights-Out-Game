@@ -11,3 +11,8 @@ LightsOut is based on a deceptively simple concept. Clicking on a cell toggles t
 1. Start react server
  1. 'npm start'
 1. Play the game!
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
