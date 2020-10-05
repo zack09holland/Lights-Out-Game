@@ -1,8 +1,20 @@
 .Board {
     margin: 0 auto;
     box-shadow: 0 0 50px #fff, -10px 0 90px #f0f, 10px 0 80px #0ff;
+    border-radius: 10px;
   }
-
+table tr:first-child td:first-child{
+  border-radius: 10px 0 0 0 !important;
+}
+table tr:first-child td:last-child{
+  border-radius: 0 10px 0 0 !important;
+}
+table tr:last-child td:first-child{
+  border-radius: 0 0 0 10px !important;
+}
+table tr:last-child td:last-child{
+  border-radius: 0 0 10px 0 !important;
+}
 /* Glowing text for neon header */
 .glow {
   font-size: 80px;
