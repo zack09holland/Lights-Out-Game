@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Cell from "../Cell/Cell";
-import './GameBoard.css';
+import './Board.css';
 
 /** Lights Out Game
  *
@@ -26,7 +26,7 @@ import './GameBoard.css';
  *
  **/
 
-class GameBoard extends Component {
+class Board extends Component {
   
   static defaultProps = {
     nrows: 4,
@@ -107,7 +107,7 @@ class GameBoard extends Component {
 
     // make table board
     return(
-      <table className="GameBoard">
+      <table className="Board">
         <tbody>{gameBoard}</tbody>
       </table>
     )
@@ -115,4 +115,4 @@ class GameBoard extends Component {
 }
 
 
-export default GameBoard;
+export default Board;
