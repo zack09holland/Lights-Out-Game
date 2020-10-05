@@ -47,8 +47,6 @@ class Board extends Component {
 
 	createBoard() {
 		let board = [];
-		let truOrFal = [true, false];
-		// TODO: create array-of-arrays of true/false values
 		for (let x = 0; x < this.props.nrows; x++) {
 			let row = [];
 			for (let y = 0; y < this.props.ncols; y++) {
@@ -93,7 +91,7 @@ class Board extends Component {
 	render() {
         // If the user has won circumnavigate the gameboard and just display you won
 		if (this.state.hasWon) {
-			return <h1>You won!!!</h1>;
+			return <h1 className='winner'>You won!!!</h1>;
         }
         
 		let gameBoard = [];
@@ -115,7 +113,7 @@ class Board extends Component {
 
 		return (
 			<div>
-				<h1 class="glow">LIGHTS OUT</h1>
+				<h1 className="glow">LIGHTS OUT</h1>
 				<table className="Board">
 					<tbody>{gameBoard}</tbody>
 				</table>
