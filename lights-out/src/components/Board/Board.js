@@ -105,11 +105,13 @@ class Board extends Component {
     // TODO
     // if the game is won, just show a winning msg & render nothing else
 
-    // make table board
     return(
-      <table className="Board">
-        <tbody>{gameBoard}</tbody>
-      </table>
+        <div>
+            <h1 class="glow">LIGHTS OUT</h1>
+            <table className="Board">
+                <tbody>{gameBoard}</tbody>
+            </table>
+        </div>
     )
   }
 }
