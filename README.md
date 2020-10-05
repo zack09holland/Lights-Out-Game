@@ -6,8 +6,8 @@ LightsOut is based on a deceptively simple concept. Clicking on a cell toggles t
 
 ## Instructions
 1. Clone the repository
-  1. 'git clone https://github.com/zack09holland/Lights-Out-Game.git'
+  2. 'git clone https://github.com/zack09holland/Lights-Out-Game.git'
 1. Go to the directory containing the react files
 1. Start react server
-  1. 'npm start'
+  2. 'npm start'
 1. Play the game!
